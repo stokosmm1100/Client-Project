@@ -96,7 +96,7 @@ header img{
 .about img{
     display: block;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 4rem;
 }
 .about p{
     width: 75%;
@@ -120,6 +120,7 @@ header img{
     color: #ffffff;
     font-family: "brush-script-std", sans-serif;
     font-size: 40px;
+
 }
 .schedule a{
     font-family: "brush-script-std", sans-serif;
@@ -184,14 +185,14 @@ header img{
 }
 .about{
     width: 100%;
-    height: 100%;
+    height:fit-content;
     top: 0;
     left: 0;
     position: absolute;
 }
 .roster{
     width: 100%;
-    height: 100%;
+    height:fit-content;
     top: 0;
     left: 0;
     position: absolute;
@@ -199,7 +200,7 @@ header img{
 }
 .schedule{
     width: 100%;
-    height: 100%;
+    height: fit-content;
     top: 0;
     left: 0;
     position: absolute;
@@ -249,8 +250,8 @@ header img{
     color: #CD00FF;
 }
 .store footer img{
-    padding: 2rem;
-    max-width: 450px;
+
+    min-width: 364px;
 }
 .store img{
     max-width: 300px;
@@ -258,12 +259,10 @@ header img{
     margin: 0 auto;
     padding: 1rem;
 }
-.store header img{
-    display: none;
-}
+
 .store{
     width: 100%;
-    height: 100%;
+    height: fit-content;
     top: 0;
     left: 0;
     position: absolute;
@@ -362,4 +361,5 @@ header img{
     gap: 3rem;
     padding: 1rem;
 }
+
 }
